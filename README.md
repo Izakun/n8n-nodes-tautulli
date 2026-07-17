@@ -31,6 +31,19 @@ Create a **Tautulli API** credential:
 - **Base URL** — e.g. `http://tautulli:8181`.
 - **API Key** — Tautulli → Settings → Web Interface → API Key. Sent as the `apikey` query parameter.
 
+## Usage example
+
+Read current Plex activity:
+
+1. Add the node after a trigger (e.g. *When clicking 'Test workflow'*).
+2. Select your credential.
+3. **Get Activity** (cmd=get_activity).
+4. Execute the node — example output:
+
+```json
+{ "stream_count": "1", "sessions": [ { "user": "alan", "title": "Dune", "state": "playing" } ] }
+```
+
 ## Disclaimer
 
 This project isn't affiliated with or endorsed by the Tautulli project. Tautulli is the
