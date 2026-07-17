@@ -25,7 +25,7 @@ export class Tautulli implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Tautulli',
 		name: 'tautulli',
-		icon: { light: 'file:tautulli.svg', dark: 'file:tautulli.svg' },
+		icon: { light: 'file:tautulli.svg', dark: 'file:tautulli.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
