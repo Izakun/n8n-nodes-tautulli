@@ -41,7 +41,7 @@ Read current Plex activity:
 4. Execute the node — example output:
 
 ```json
-{ "stream_count": "1", "sessions": [ { "user": "alan", "title": "Dune", "state": "playing" } ] }
+{ "stream_count": "1", "sessions": [ { "user": "jdoe", "title": "Dune", "state": "playing" } ] }
 ```
 
 ## Disclaimer
