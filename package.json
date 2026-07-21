@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-tautulli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "n8n community node for Tautulli (Plex monitoring) via its v2 API",
   "keywords": [
     "n8n-community-node-package",
